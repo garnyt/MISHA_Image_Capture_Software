@@ -1,0 +1,18 @@
+Warning: Unable to initialize spinnaker adaptor because Spinnaker SDK version 1.15.63 must be installed.
+
+Summary of Video Input Object Using 'PL-D7620MU-T 120002484'.
+
+   Acquisition Source(s):  input1 is available.
+
+  Acquisition Parameters:  'input1' is the current selected source.
+                           10 frames per trigger using the selected source.
+                           'MONO16_5472x3648' video data to be logged upon START.
+                           Grabbing first of every 1 frame(s).
+                           Log data to 'memory' on trigger.
+
+      Trigger Parameters:  1 'immediate' trigger(s) on START.
+
+                  Status:  Waiting for START.
+                           0 frames acquired since starting.
+                           0 frames available for GETDATA.
+

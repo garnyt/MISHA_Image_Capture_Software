@@ -1,0 +1,140 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2152777601" file="C:\Users\garny\Documents\code\matlab\MISHA_Control\MISHA_capturing.prj" location="C:\Users\garny\Documents\code\matlab\MISHA_Control" name="MISHA_capturing" preferred-package-location="C:\Users\garny\Documents\code\matlab\MISHA_Control\MISHA_capturing\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>MISHA_capturing</param.appname>
+    <param.icon>${PROJECT_ROOT}\MISHA_capturing_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\MISHA_capturing_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\MISHA_capturing_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\MISHA_capturing_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\MISHA_capturing_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Tania Kleynhans</param.authnamewatermark>
+    <param.email>tkpci@rit.edu</param.email>
+    <param.company>Rochester Institute of Technology</param.company>
+    <param.summary>Image capture software to accompany the MISHA system. More infor at www.r-chive.com</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\garny\Documents\RIT\RCHIVE\Logos\R-CHIVE logo-sml.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Rochester Institute of Technology\MISHA_capturing\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\MISHA_capturing\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\MISHA_capturing\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\MISHA_capturing\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\MISHA_capturing</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="Hyperspectral Imaging Library Support Package" enabled="true" name="Hyperspectral Imaging Library Support Package" product="Image Processing Toolbox"/&gt;</item>
+    </param.support.packages>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>true</param.create.log>
+    <param.log.file>logfile</param.log.file>
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.version />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MISHA_capturing.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\capture_image.m</file>
+      <file>${PROJECT_ROOT}\capture_images.m</file>
+      <file>${PROJECT_ROOT}\splash.png</file>
+      <file>${PROJECT_ROOT}\Thumbnails\cancel.PNG</file>
+      <file>${PROJECT_ROOT}\Thumbnails\capture.png</file>
+      <file>${PROJECT_ROOT}\Thumbnails\capture_flats.png</file>
+      <file>${PROJECT_ROOT}\Thumbnails\focus.png</file>
+      <file>${PROJECT_ROOT}\Thumbnails\lights.PNG</file>
+      <file>${PROJECT_ROOT}\Thumbnails\test_leds.PNG</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\MISHA_capturing\for_testing" name="MISHA_capturing.exe" optional="false">C:\Users\garny\Documents\code\matlab\MISHA_Control\MISHA_capturing\for_testing\MISHA_capturing.exe</file>
+      <file location="${PROJECT_ROOT}\MISHA_capturing\for_testing" name="splash.png" optional="false">C:\Users\garny\Documents\code\matlab\MISHA_Control\MISHA_capturing\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\MISHA_capturing\for_testing" name="readme.txt" optional="true">C:\Users\garny\Documents\code\matlab\MISHA_Control\MISHA_capturing\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
